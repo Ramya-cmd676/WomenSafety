@@ -1,0 +1,42 @@
+h1{
+    background-color: peachpuff;
+    color: #32190a;
+    font-size: 80px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.resource-card {
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-title {
+    color: black !important;
+}
+
+.card-text {
+    color: #6c757d !important;
+}
+
+.btn-primary {
+    background-color: rgb(232, 140, 58) !important;
+    border-color: whitesmoke !important;
+    transition: background-color 0.3s ease, border-color 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(118, 72, 32) !important;
+    border-color: whitesmoke !important;
+}

@@ -1,0 +1,34 @@
+h1{
+    background-color: peachpuff;
+    color: #32190a;
+    font-size: 80px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}

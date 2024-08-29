@@ -1,0 +1,15 @@
+h1{
+    background-color: peachpuff;
+    color: #32190a;
+    font-size: 80px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}

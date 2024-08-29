@@ -1,0 +1,41 @@
+h1{
+    background-color: peachpuff;
+    color: #32190a;
+    font-size: 80px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif
+}
+
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    color: #32190a;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: peru;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
